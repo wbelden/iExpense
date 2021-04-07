@@ -15,6 +15,8 @@
 		180E9449261DFE1C007E4A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E941E261DFE1B007E4A39 /* ContentView.swift */; };
 		180E944A261DFE1C007E4A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180E941F261DFE1C007E4A39 /* Assets.xcassets */; };
 		180E944B261DFE1C007E4A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180E941F261DFE1C007E4A39 /* Assets.xcassets */; };
+		180E945F261E03D1007E4A39 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E945E261E03D1007E4A39 /* AddView.swift */; };
+		180E9460261E03D1007E4A39 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E945E261E03D1007E4A39 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		180E943F261DFE1C007E4A39 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		180E9443261DFE1C007E4A39 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		180E9445261DFE1C007E4A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180E945E261E03D1007E4A39 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				180E941D261DFE1B007E4A39 /* iExpense_6App.swift */,
 				180E941E261DFE1B007E4A39 /* ContentView.swift */,
+				180E945E261E03D1007E4A39 /* AddView.swift */,
 				180E941F261DFE1C007E4A39 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -310,6 +314,7 @@
 			files = (
 				180E9448261DFE1C007E4A39 /* ContentView.swift in Sources */,
 				180E9446261DFE1C007E4A39 /* iExpense_6App.swift in Sources */,
+				180E945F261E03D1007E4A39 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				180E9449261DFE1C007E4A39 /* ContentView.swift in Sources */,
 				180E9447261DFE1C007E4A39 /* iExpense_6App.swift in Sources */,
+				180E9460261E03D1007E4A39 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
